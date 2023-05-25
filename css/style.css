@@ -1,0 +1,539 @@
+:root {
+  --pr-color: #048853;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3fff4;
+}
+
+body#layanan nav {
+  background-color: #048853;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "poppins";
+}
+
+nav {
+  z-index: 3;
+}
+
+* {
+  z-index: 2;
+}
+.hero-img {
+  z-index: -1;
+}
+.Accsent {
+  margin-top: -10px;
+  z-index: -1;
+}
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+.nav-color {
+  background-color: #048853;
+}
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  color: var(--pr-color);
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.button-primary {
+  width: 133px;
+  height: 40px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+}
+
+/* hero section */
+
+.hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+}
+
+.hero-tagline {
+  margin-top: 15%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+.hero-tagline p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 230px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* layanan section */
+
+#layanan {
+  padding: 100px 0;
+}
+
+#layanan h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+}
+.circle-icon img {
+  width: 70%;
+}
+
+.card-layanan h3 {
+  font-size: 24px;
+  color: var(--pr-color);
+}
+.card-layanan p {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+
+.layanan-kami:hover {
+  #layanan {
+    padding: 100px 0;
+  }
+
+  #layanan h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+  }
+
+  .sub-title {
+    font-size: 18px;
+    color: #000;
+  }
+
+  .card-layanan {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  }
+
+  .circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .circle-icon img {
+    width: 70%;
+  }
+
+  .card-layanan h3 {
+    font-size: 24px;
+    color: #fff;
+  }
+  .card-layanan p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+/* search section */
+
+#search {
+  background-image: url(../Assets/Img-search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+#search p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.input-cari {
+  height: 88px;
+  border: none;
+}
+.input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr-color);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary {
+  background-color: var(--pr-color);
+  color: #fff;
+  height: 88px;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 10px 0 10px;
+  border: none;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  color: var(--pr-color);
+  border-radius: 0 9px 0 0;
+  font-weight: 500;
+}
+
+/* section rekomendasi */
+
+#rekomendasi {
+  padding: 100px 0;
+}
+
+#rekomendasi h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+.card {
+  width: 95%px;
+  height: 460px;
+  border: none;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card-body h4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0.8rem;
+}
+
+.card-body p {
+  color: #0f0f0f;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card:hover {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-body h4 {
+  color: #fff;
+  transition: all ease-in 0.3s;
+}
+.card:hover .card-body p {
+  color: #fff;
+  transition: all ease-in 0.3s;
+}
+
+.card-fasilitas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  background-color: #fff;
+}
+
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 18px;
+  color: #000;
+}
+.card-fasilitas p {
+  font-size: 12px;
+}
+
+/* card fitur */
+
+.button-fitur {
+  width: 238px;
+  height: 63px;
+  background-color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#fitur h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.overlay h5 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.overlay span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.overlay h6 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.overlay button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: var(--pr-color);
+  color: #fff;
+}
+
+.card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.card-fitur .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+.button-arrow-left {
+  width: 50px;
+  height: 50px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+}
+
+.button-arrow-right {
+  width: 50px;
+  height: 50px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+}
+
+/* kontak section */
+#contact {
+  background-image: url("/Assets/kontak-img.png");
+  margin-top: 158px;
+}
+form {
+  opacity: 0.9;
+  background-color: #ffffff;
+  width: 580px;
+  height: 445px;
+  padding: 2rem;
+  border-radius: 3px;
+}
+
+#contact .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+  padding: 148px 0;
+}
+
+#contact h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+#contact h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+#contact a {
+  width: 332px;
+  height: 36px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact div {
+  padding-bottom: 10px;
+}
+
+#contact div img {
+  margin-right: 16px;
+}
+
+#contact h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.sosial-media a {
+  display: inline-block;
+}
+
+.forum-kontak h5 {
+  color: var(--pr-color);
+  padding: 52px 0 21px 0;
+}
+
+.forum-kontak .button-kontak {
+  width: 100%;
+  height: 75px;
+}
+
+.form-control {
+  width: 100%;
+  height: 75px !important;
+  border-radius: 0;
+  background: #c4c4c4;
+}
+
+.form-floating label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  width: 1366px;
+  height: 270px;
+
+  background: #000000;
+}
+
+.logo-footer a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-footer a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 6px;
+  text-decoration: none;
+}
+
+.row-pertama {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  color: #fff;
+  bottom: 10%;
+}
+
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}

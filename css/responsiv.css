@@ -1,0 +1,14 @@
+@media screen and (max-width: 570px) {
+  .hero-tagline {
+    line-height: 52px;
+  }
+
+  .img-hero {
+    width: 75%;
+    height: auto;
+  }
+
+  .button-lg-primary {
+    z-index: 999;
+  }
+}
